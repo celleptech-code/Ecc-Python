@@ -15,6 +15,7 @@ body {
     color: #fff;
     display: flex;
     flex-direction: column;
+    background-color: rgb(29, 29, 29);
 }
 
 ul {
