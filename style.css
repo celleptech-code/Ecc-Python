@@ -7,7 +7,7 @@
 }
 
 html, body {
-    height: 100vh;
+    height: 100%;
 }
 
 body {
@@ -15,7 +15,6 @@ body {
     color: #fff;
     display: flex;
     flex-direction: column;
-    background-color: rgb(29, 29, 29);
 }
 
 ul {
@@ -60,10 +59,6 @@ header li a.activi {
     color: #fff;
 }
 
-iframe {
-    flex: 1;
-}
-
 main {
     padding: 16px;
     font-size: 1.2em;
@@ -89,6 +84,28 @@ main li:last-child {
 
 main a {
     color: #8247bd;
+}
+
+.youtube {
+    max-width: 960px;
+    height: 540px;
+    margin: 0 auto;
+}
+
+.youtube iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.trinket {
+    flex: 1 1 auto;
+    display: flex;
+}
+
+.tynker {
+    padding: 32px;
+    flex: 1 1 auto;
+    display: flex;
 }
 
 @media screen and (max-width: 576px) {
