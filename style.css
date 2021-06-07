@@ -103,6 +103,11 @@ main a {
     display: flex;
 }
 
+.tynker > iframe {
+    width: 100%;
+    height: auto;
+}
+
 .tynker {
     padding: 32px;
     flex: 1 1 auto;
