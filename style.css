@@ -15,6 +15,7 @@ body {
     color: #fff;
     display: flex;
     flex-direction: column;
+    background-color: #333;
 }
 
 ul {
