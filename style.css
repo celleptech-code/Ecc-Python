@@ -23,7 +23,7 @@ ul {
 }
 
 header {
-    padding: 16px;
+    padding: 8px;
     background-color: #555;
     display: flex;
     align-items: center;
@@ -31,6 +31,11 @@ header {
 
 header h3 {
     margin-right: 20px;
+}
+
+header li:first-child {
+    display: flex;
+    align-items: center;
 }
 
 header ul {
@@ -43,11 +48,15 @@ header ul li {
 
 header li a {
     text-decoration: none;
-    padding: 10px 15px;
+    display: inline-table;
+    padding: 8px;
+    text-align: center;
+    width: 36px;
+    height: 36px;
     color: #fff;
     border: 1px solid #ddd;
     background-color: #a089b6;
-    border-radius: 50%;
+    border-radius: 100%;
 }
 
 header li a:hover {
