@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body, .main, #root {
+    height: 100%;
+}
+
+body, .main {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    list-style-type: none;
+}
+
+header {
+    background-color: #2A2A86;
+}
+
+.header-title {
+    background-color: #FFF;
+    padding: 4px 8px;
+    font-size: 0.8em;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+}
+
+nav img {
+    width: auto;
+    height: 32px;
+}
+
+nav li:first-child {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 4px;
+}
+
+nav li a {
+    text-decoration: none;
+    display: inline-table;
+    padding: 8px;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    color: #2A2A86;
+    background-color: #FFF;
+    border-radius: 100%;
+}
+
+nav li a:hover {
+    background-color: #8247bd;
+    color: #fff;
+}
+
+nav li a.activi {
+    background-color: #8247bd;
+    color: #fff;
+}
+
+.aulas-list {
+    padding: 16px;
+}
+
+.aulas-list li {
+    padding: 8px;
+    background-color: #8247bd;
+    margin-bottom: 8px;
+    border-radius: 4px;
+}
+
+.aulas-list a {
+    color: #FFF;
+    text-decoration: none;
+    display: block;
+}
+
+.presentation, .youtube {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.code-bar {
+    width: 100%;
+    background-color: #555;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 16px;
+}
+
+.code-bar-center {
+    display: block;
+    width: 80%;
+    overflow: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+
+}
+
+.code-bar-center button {
+    cursor: pointer;
+    height: 32px;
+    min-width: 50px;
+    margin-left: 10px;
+    padding: 0 8px;
+    font-size: 1em;
+    background-color: #999;
+    color: #FFF;
+    border: 0px;
+    border-radius: 4px;
+}
+
+.code-bar-left, .code-bar-right {
+    width: 10%;
+    text-align: center;
+}
+
+.text-info {
+    background-color: rgb(65, 198, 28);
+    color: #fff;
+    padding: 8px;
+    font-size: 0.8em;
+    border-radius: 4px;
+    min-width: 40px;
+}
+
+.trinket {
+    flex: 1 1 auto;
+    display: flex;
+}
+
+.tynker > iframe {
+    width: 100%;
+    height: auto;
+}
+
+.tynker {
+    padding: 32px;
+    flex: 1 1 auto;
+    display: flex;
+}
+
+@media screen and (max-width: 576px) {
+    
+    header ul {
+        flex-wrap: wrap;
+    }
+
+    header ul li:first-child {
+        margin-bottom: 24px;
+    }
+
+}
