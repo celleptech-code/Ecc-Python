@@ -294,7 +294,7 @@ class Header extends React.Component {
             return (
                 <header>
                     <nav>
-                        <img src="../assets/images/logo_cellep.png" className="header-logo"/>
+                        <img src="./assets/images/logo_cellep.png" className="header-logo"/>
                     </nav>
                 </header>
             )
@@ -316,7 +316,7 @@ class Header extends React.Component {
         return (
             <header>
                 <nav>
-                    <a href="/"><img src="../assets/images/logo_cellep.png" className="header-logo"/></a>
+                    <a href={baseUrl}><img src="./assets/images/logo_cellep.png" className="header-logo"/></a>
                     <ul>
                         <li>
                             <ul className="header-links">
