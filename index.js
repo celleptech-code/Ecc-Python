@@ -7,12 +7,18 @@ const Type = {
 }
 
 const Command = {
+    
+    // Default
     'DEF': ['def', 'def _:'],
     'FOR': ['for', 'for _ in range(1):'],
     'WHILE': ['while', 'while _:'],
     'IF': ['if', 'if _:'],
     'ELSE': ['else', 'else:'],
     'ELIF': ['elif', 'elif _:'],
+    'PRINT': ['print()', 'print()'],
+    'INPUT': ['input()', 'input()'],
+
+    // Turtle
     'FORWARD': ['forward()', 'forward()'],
     'BACKWARD': ['backward()', 'backward()'],
     'LEFT': ['left()', 'left()'],
@@ -27,13 +33,19 @@ const Command = {
     'COLOR': ['color()', 'color()'],
     'BEGINFILL': ['begin_fill()', 'begin_fill()'],
     'ENDFILL': ['end_fill()', 'end_fill()'],
-    'ISONFRUIT': ['isOnFruit()', 'isOnFruit()'],
-    'EATFRUIT': ['eatFruit()', 'eatFruit()'],
-    'PATHAHEAD': ['pathAhead()', 'pathAhead()'],
-    'PATHTOTHELEFT': ['pathToTheLeft()', 'pathToTheLeft()'],
-    'PATHTOTHERIGHT': ['pathToTheRight()', 'pathToTheRight()'],
-    'PRINT': ['print()', 'print()'],
-    'INPUT': ['input()', 'input()'],
+
+    // Game Commands
+    'EAT': ['eat()', 'eat()'],
+    'TOGGLESWITCH': ['toggleswitch()', 'toggleswitch()'],
+
+    // Game Conditions
+    'ISFRUIT': ['isfruit()', 'isfruit()'],
+    'PATHAHEAD': ['pathahead()', 'pathahead()'],
+    'PATHLEFT': ['pathleft()', 'pathleft()'],
+    'PATHRIGHT': ['pathright()', 'pathright()'],
+    'ISOPENSWITCH': ['isopenswitch()', 'isopenswitch()'],
+    'ISCLOSEDSWITCH': ['isclosedswitch()', 'isclosedswitch()'],
+
 }
 
 const Database = {
@@ -275,8 +287,52 @@ const Database = {
                 'content': 'https://trinket.io/embed/python/4912844163?start=result',
                 'commands': [Command.IF, Command.ELSE, Command.FOR, Command.DEF, Command.FORWARD, Command.LEFT, Command.RIGHT]
             },
+            // Atividades 5
+            {
+                'type': Type.TRINKET, // trinket, presentation, youtube
+                'content': 'https://trinket.io/embed/python/7b8efbc905?start=result',
+                'commands': [Command.IF, Command.ELIF, Command.ELSE, Command.FOR, Command.DEF, Command.FORWARD, Command.LEFT, Command.RIGHT, Command.EAT, Command.TOGGLESWITCH, Command.ISFRUIT, Command.ISOPENSWITCH, Command.ISCLOSEDSWITCH]
+            },
+            // Atividades 6
+            {
+                'type': Type.TRINKET, // trinket, presentation, youtube
+                'content': 'https://trinket.io/embed/python/7e3cfb3a57?start=result',
+                'commands': [Command.IF, Command.ELIF, Command.ELSE, Command.FOR, Command.DEF, Command.FORWARD, Command.LEFT, Command.RIGHT, Command.EAT, Command.TOGGLESWITCH, Command.ISFRUIT, Command.ISOPENSWITCH, Command.ISCLOSEDSWITCH]
+            },
+            // Atividades 7
+            {
+                'type': Type.TRINKET, // trinket, presentation, youtube
+                'content': 'https://trinket.io/embed/python/d8c0f7d5bc?start=result',
+                'commands': [Command.IF, Command.ELIF, Command.ELSE, Command.FOR, Command.DEF, Command.FORWARD, Command.LEFT, Command.RIGHT, Command.EAT, Command.TOGGLESWITCH, Command.ISFRUIT, Command.ISOPENSWITCH, Command.ISCLOSEDSWITCH]
+            },
+            // Atividades 8
+            {
+                'type': Type.TRINKET, // trinket, presentation, youtube
+                'content': 'https://trinket.io/embed/python/294f952dca?start=result',
+                'commands': [Command.IF, Command.ELIF, Command.ELSE, Command.FOR, Command.DEF, Command.FORWARD, Command.LEFT, Command.RIGHT, Command.EAT, Command.TOGGLESWITCH, Command.ISFRUIT, Command.ISOPENSWITCH, Command.ISCLOSEDSWITCH]
+            },
+            // Atividades 9
+            {
+                'type': Type.TRINKET, // trinket, presentation, youtube
+                'content': 'https://trinket.io/embed/python/d767e97224?start=result',
+                'commands': [Command.IF, Command.ELIF, Command.ELSE, Command.FOR, Command.DEF, Command.FORWARD, Command.LEFT, Command.RIGHT, Command.EAT, Command.TOGGLESWITCH, Command.ISFRUIT, Command.ISOPENSWITCH, Command.ISCLOSEDSWITCH]
+            },
+            // Atividades 10
+            {
+                'type': Type.TRINKET, // trinket, presentation, youtube
+                'content': 'https://trinket.io/embed/python/9191a5ff93?start=result',
+                'commands': [Command.IF, Command.ELIF, Command.ELSE, Command.FOR, Command.DEF, Command.FORWARD, Command.LEFT, Command.RIGHT, Command.EAT, Command.TOGGLESWITCH, Command.ISFRUIT, Command.ISOPENSWITCH, Command.ISCLOSEDSWITCH]
+            },
+            // Atividades 11
+            {
+                'type': Type.TRINKET, // trinket, presentation, youtube
+                'content': 'https://trinket.io/embed/python/b41decf27a?start=result',
+                'commands': [Command.IF, Command.ELIF, Command.ELSE, Command.FOR, Command.DEF, Command.FORWARD, Command.LEFT, Command.RIGHT, Command.EAT, Command.TOGGLESWITCH, Command.ISFRUIT, Command.ISOPENSWITCH, Command.ISCLOSEDSWITCH]
+            },
         ]
     },
+
+    
     
 }
 
